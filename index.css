@@ -44,7 +44,10 @@ li a{
     color:white;
     text-decoration: none;
 }
-
+.logo img{
+    height:60px;
+    width:60px;
+}
 h1{
     display:flex;
 }
