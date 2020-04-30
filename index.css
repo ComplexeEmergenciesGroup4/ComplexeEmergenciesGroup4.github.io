@@ -87,6 +87,9 @@ main{
     justify-content: center;
     width:100%;
 }
+.map_img img{
+    width:60%;
+}
 h2{
     display:flex;
     justify-content: center;
