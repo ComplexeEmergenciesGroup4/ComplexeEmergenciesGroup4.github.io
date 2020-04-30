@@ -21,7 +21,7 @@ nav{
     box-sizing: border-box;
 }
 
-ul{
+nav ul{
     display:flex;
     flex-direction: row;
     width:100%;
@@ -42,10 +42,10 @@ ul{
     align-items:center;
 }
 
-li{
+nav li{
     list-style: none;
 }
-li a{
+nav li a{
     color:white;
     text-decoration: none;
     margin-left: 10px;
