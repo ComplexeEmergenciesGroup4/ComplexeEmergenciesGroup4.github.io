@@ -30,11 +30,13 @@ ul{
 .left_nav{
     display:flex;
     flex-direction: row;
+    align-items:center;
 }
 
 .right_nav{
     display:flex;
     flex-direction: row;
+    align-items:center;
 }
 
 li{
@@ -43,6 +45,10 @@ li{
 li a{
     color:white;
     text-decoration: none;
+    margin-left: 10px;
+}
+.right_nav li a:hover{
+    background-color: gray;
 }
 .logo img{
     height:60px;
@@ -50,4 +56,39 @@ li a{
 }
 h1{
     display:flex;
+}
+main{
+    width:100%;
+}
+.center_logo{
+    display:flex;
+    justify-content: center;
+}
+.ms{
+    font-size:20px;
+    padding: 0 20px 0 20px;
+}
+.map{
+    font-size:20px;
+    padding: 20px 20px 20px 20px;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+.center_logo img{
+    height:300px;
+    width:300px;
+}
+footer{
+    display:flex;
+    width:100%;
+    background-color: black;
+    color:whitesmoke;
+    height:50px;
+    width:100%;
+    justify-content: center;
+    position: absolute;
+    bottom:0;
+    align-items: center;
 }
