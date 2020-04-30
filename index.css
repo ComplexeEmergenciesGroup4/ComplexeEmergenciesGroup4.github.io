@@ -1,6 +1,9 @@
+
 body{
     margin:0;
     max-width:100%;
+    /* background-color: #F9F9F9; */
+    background-color: lightcoral;
 }
 
 header{
@@ -63,10 +66,14 @@ main{
 .center_logo{
     display:flex;
     justify-content: center;
+    
+   
 }
 .ms{
     font-size:20px;
     padding: 0 20px 0 20px;
+    border-bottom-style: solid;
+    border-top-style: solid;
 }
 .map{
     font-size:20px;
@@ -77,8 +84,10 @@ h2{
     justify-content: center;
 }
 .center_logo img{
-    height:45vw;
-    width:45vw;
+    height:30vw;
+    width:30vw;
+    border-radius: 500px;
+
 }
 footer{
     display:flex;
@@ -91,4 +100,14 @@ footer{
     position: relative;
     bottom:0;
     align-items: center;
+}
+.Info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto repeat(5 1fr);
+    gap: 25px;
+}
+.Info img{
+    width: 100%;
+    
 }
