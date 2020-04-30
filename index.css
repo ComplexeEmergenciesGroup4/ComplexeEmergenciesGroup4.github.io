@@ -119,3 +119,17 @@ footer{
     width: 100%;
     
 }
+
+@media screen and (min-width:400px) and (max-width: 640px){
+    .wordlogo{
+        display:none;
+    }
+}
+@media screen and (max-width:400px){
+    .wordlogo{
+        display:none;
+    }
+    .words{
+        display:none;
+    }
+}
