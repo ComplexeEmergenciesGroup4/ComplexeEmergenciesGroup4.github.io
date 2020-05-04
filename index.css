@@ -94,6 +94,9 @@ h2{
     display:flex;
     justify-content: center;
 }
+p{
+    font-size: 14px;
+}
 .center_logo img{
     height:30vw;
     width:30vw;
